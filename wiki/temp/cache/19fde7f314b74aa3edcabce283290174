@@ -1,0 +1,1 @@
+a:8:{s:18:"application/msword";s:10:"strings %1";s:15:"application/pdf";s:14:"pdftotext %1 -";s:16:"application/sgml";s:9:"col -b %1";s:23:"application/x-troff-man";s:9:"man -l %1";s:13:"text/enriched";s:9:"col -b %1";s:13:"text/richtext";s:9:"col -b %1";s:9:"text/sgml";s:9:"col -b %1";s:25:"text/tab-separated-values";s:9:"col -b %1";}

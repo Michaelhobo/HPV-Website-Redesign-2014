@@ -1,0 +1,9 @@
+#! /bin/bash
+
+FILE="../photos/image_list"
+while read line; do
+    from=$(echo $line | cut -d';' -f1)
+    to=$(echo $line | cut -d';' -f2)
+    sed -i "s;$from;\/photos\/$to;g" posts/*
+    echo "$from --> $to"
+done < $FILE

@@ -1,0 +1,5 @@
+#! /bin/bash
+FILE="/home/michaelhobo/images"
+while read line; do
+    ./load_image $line
+done < $FILE

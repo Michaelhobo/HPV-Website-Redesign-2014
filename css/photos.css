@@ -1,0 +1,28 @@
+#gallery_box {
+    max-width: 775px;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gallery_description {
+    display:block;
+    width:90%;
+    padding: 20px;
+    max-width: 695px;
+}
+.gallery_choice:hover {
+    box-shadow: 0 0 60px #2aa7e7;
+    box-shadow: 0 0 60px #2aa7e7 inset;
+}
+.gallery_choice {
+    padding: 20px;
+    overflow:auto;
+    border-radius:20px;
+}
+.gallery_thumb {
+    max-width:300px;
+    max-height:300px;
+    border-radius: 10px;
+    float:left;
+    margin: 10px;
+}

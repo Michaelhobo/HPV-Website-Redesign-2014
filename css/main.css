@@ -1,0 +1,65 @@
+.block {
+    overflow:hidden;
+    height: 80%;
+    max-width:775px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#banner {
+    height:80%;
+    width:100%;
+    overflow:hidden;
+    text-align:center;
+    position:relative;
+    background-image:url('/assets/banner.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+#banner #banner_message {
+    font-size:40px;
+    display:inline-block;
+    vertical-align:middle;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+#updatesContent span {
+    text-align:left;
+    height:40px;
+    bottom:0;
+    font-size:25px;
+    text-shadow: 0 0 7px white;
+    font-weight: bold italic;
+}
+.updateBackground {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+.caption {
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:10px;
+    margin-bottom:150px;
+    text-shadow:0 0 7px white;
+    font-size:20px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px 0px 0px 20px;
+    color:white;
+}
+a:link .caption, a .caption, a:visited .caption {
+    color:white;
+}
+#teamsBlock {
+    height:350px;
+}
+#sponsorsBlock {
+    height:200px;
+}

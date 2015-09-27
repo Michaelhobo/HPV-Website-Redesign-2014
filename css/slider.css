@@ -1,0 +1,66 @@
+.left {
+    top: 0;
+    left: 10px;
+    width: 110px !important;
+    height: 90%;
+}
+.right {
+    right: 10px;
+    bottom: 0px;
+    width: 90px !important;
+    height: 90%;
+}
+.post {
+    border-width:3px;
+    border-color:white;
+    width:100%;
+    height:100%;
+    text-overflow:ellipsis;
+    color:white;
+    font-size:20px;
+    overflow:hidden;
+}
+.defSlider {
+    width: 100%; /* important to be same as image width */
+    height: 100%; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+}
+.defContent {
+    width: 100%; /* important to be same as image width or wider */
+    height:100%;
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+}
+.defPost {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+    width:100%;
+    height:100%;
+}
+ 
+.defPost span {
+    position: absolute; /* important */
+    left: 0;
+/*    font: 10px/15px Arial, Helvetica, sans-serif;*/
+    padding: 0px;
+    width: 100%;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+.clear {
+    clear: both;
+}

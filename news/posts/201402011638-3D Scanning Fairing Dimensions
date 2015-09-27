@@ -1,0 +1,17 @@
+A few weekends ago, team members Kyle and Andrew went up the hill to LBNL with the fitting rig to get rider point plot data and try a 3D scan of the rider. This data is intended for use in designing the fairing around Andrew, the tallest rider.<br/>
+
+<img class="alignnone size-medium wp-image-530" alt="Bob Connors of LBNL plotting points for our fairing." src="/photos/galleries/2013-2014 Activities/IMG_3866-300x225.jpg" width="300" height="225" /></br>
+
+After getting sufficiently lost on the way to the metrology lab, Kyle and Andrew arrived and went about securing the fit rig on top of a granite table top. Bob Connors, the metrology specialist at LBNL, set up the Faro Arm for measurements. The Faro Arm is an advanced measurement device that takes point data using distance triangulation of the arm joints. The arm also has an attachment that allows it to do 3D scans.
+</br>
+<img class="alignnone size-medium wp-image-531" alt="" src="/photos/galleries/2013-2014 Activities/IMG_3870-300x225.jpg" width="300" height="225" /></br>
+
+Andrew was first scanned in taking point data along his legs, arms, and head. Kyle worked on processing the point files into something a CAD program would interpret. These measurements provided good, clean data for the team to use in the fairing construction.
+</br>
+<img class="alignnone size-medium wp-image-532" alt="" src="/photos/galleries/2013-2014 Activities/IMG_3874-300x225.jpg" width="300" height="225" />
+</br>
+Next, Bob changed out for the 3D scanning  attachment and scanned in parts of Andrew's head, arm, and leg. The scanner plotted over 1 million points from the small area scanned. The CAM software could not handle the mass amount of data, so a parsing script was written to take points at a set distance. This allowed the data to be plottable in a CAM software where a spline interpolation was used to import to a CAD program. The file is enormous and cumbersome to deal with, so the team plans to use this 3D scan data for final size verification of the fairing.
+</br>
+<img class="alignnone size-medium wp-image-533" alt="Plotting points" src="/photos/galleries/2013-2014 Activities/Point-Plot1-300x161.png" width="300" height="161" /></br>
+
+The team would like to extend a special thanks to Bob Connors of LBNL for graciously coming in on a weekend to take the measurements.

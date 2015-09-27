@@ -1,0 +1,145 @@
+/* The main body styling. */
+html,
+body {
+    height:100%;
+    color:red;
+    padding:0px;
+    margin:0px;
+}
+#contentwrapper {
+    margin-top:2%;
+    height:100%;
+    overflow:auto;
+    position:fixed;
+    width:100%;
+}
+.header {
+    position:fixed;
+    height:5%;
+    width:100%;
+    background:black;
+    color:cyan;
+    z-index:99;
+}
+.header .button-container {
+    width:60%;
+    height:90%;
+    vertical-align:bottom;
+    text-align:center;
+    float:right;
+    font-weight:bold;
+}
+.header .button-container .button {
+    width:22%;
+    height:100%;
+    float:left;
+}
+.block {
+/*    position:relative;*/
+    float:left;
+    overflow:hidden;
+    height:100%;
+    width:100%;
+}
+.block-title {
+    background:cyan;
+    text-align:center;
+    vertical-align:middle;
+    color:white;
+    font-weight:bold;
+    position:absolute
+    top:10%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#main {
+    background:blue;
+}
+#topics {
+}
+#option-explanation {
+}
+/* The Option buttons block. */
+#topic-container {
+    width:100%;
+    height:70%;
+    background-color:grey;
+    padding:0px;
+    vertical-align:center;
+}
+.other-topics {
+    float:left;
+}
+.description {
+    background-color:white;
+    color:black;
+    float:left;
+    height:75%;
+    display:none;
+    width:50%;
+    left:25%;
+    margin:4%;
+}
+.topic {
+    float:left;
+    position:relative;
+    margin:4%;
+    color:white;
+    background-image:url('/computer_icon.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center; 
+}
+.in-option {
+    background:red;
+    width:50px;
+    height:50px;
+}
+.centered {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+    max-height:100%;
+    z-index:99;
+}
+#op_expanded_top {
+    height:66%;
+    width:100%;
+    float:left;
+}
+#op_expanded_bottom {
+    height:33%;
+    width:100%;
+    float:left;
+}
+/* The Gallery styling. */
+.gallery-title {
+    width:100%;
+    position:absolute;
+    text-align:center;
+}
+.gallery-title .Title {
+    text-align:center;
+    font-size: 50px;
+}
+.gallery-title .Subtitle {
+    text-align:center;
+    font-size: 30px;
+}
+/*img {
+    position:fixed;
+    min-height:100%;
+    min-width:100%;
+    width:100%;
+}*/
+#foreground {
+}
+#background {
+    display:none;
+}
+.gallery {
+    overflow:hidden;
+    position:relative;
+}
+

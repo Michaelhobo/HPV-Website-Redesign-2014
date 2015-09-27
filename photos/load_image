@@ -1,0 +1,6 @@
+#! /bin/bash
+gallery_path='galleries/2013-2014 Activities'
+image_list="image_list"
+basename=$(basename $1)
+wget -P "$gallery_path" $1
+echo "$1;$gallery_path/$basename" >> $image_list
